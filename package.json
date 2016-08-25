@@ -1,7 +1,7 @@
 {
   "name": "silly-pouchdb-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo repo for a silly PouchDB bug.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
