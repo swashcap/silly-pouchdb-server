@@ -17,17 +17,7 @@ app.listen(config.port, (error) => {
 
   console.log(`PouchDB server running at localhost:${config.port}`);
 
-  db.bulkDocs([{
-    _id: 'doc1',
-    title: 'Space Oddity',
-  }, {
-    _id: 'doc2',
-    title: 'Changes',
-  }, {
-    _id: 'doc3',
-    title: 'The Man Who Sold The World',
-  }]).then(() => {
-
+  db.bulkDocs(config.docs).then(() => {
     process.send({
       pid: process.pid,
       ready: true,
