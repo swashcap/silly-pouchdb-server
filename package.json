@@ -1,0 +1,31 @@
+{
+  "name": "silly-pouchdb-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swashcap/silly-pouchdb-server.git"
+  },
+  "keywords": [
+    "pouchdb",
+    "server"
+  ],
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swashcap/silly-pouchdb-server/issues"
+  },
+  "homepage": "https://github.com/swashcap/silly-pouchdb-server#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-pouchdb": "^1.0.7",
+    "memdown": "^1.2.0",
+    "pouchdb-adapter-memory": "^5.4.5",
+    "pouchdb-node": "^5.4.5"
+  }
+}
