@@ -4,7 +4,8 @@
   "description": "Demo repo for a silly PouchDB bug.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf .tmp _replicator _users log.txt pouch__all_dbs__ test-db",
+    "start": "npm run clean && mkdir .tmp && node index.js"
   },
   "repository": {
     "type": "git",

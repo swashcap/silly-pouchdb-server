@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  pathname: 'test',
+  pathname: 'test-db',
   port: 5985,
 };
 
